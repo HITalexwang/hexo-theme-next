@@ -30,10 +30,10 @@ canonical: true
 menu:
   home: /
   #categories: /categories
-  #about: /about
-  archives: /archives
   tags: /tags
-  schedule: /schedule
+  archives: /archives
+  about: /about
+  # schedule: /schedule
   #commonweal: /404.html
 
 
@@ -43,7 +43,7 @@ menu:
 #   Key is the name of menu item and value is the name of FontAwsome icon. Key is case-senstive.
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
-  enable: false
+  enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
@@ -78,13 +78,13 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.lug.ustc.edu.cn/
 
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Roboto Slab
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -96,21 +96,21 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Monda
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
+    family: Lobster Two
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family:
-    size:
+    size: 16px
 
 
 
@@ -144,7 +144,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -238,7 +238,7 @@ mathjax:
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: aoQ6PufFyscKxkPmNGnx
 
 # Baidu Analytics ID
 #baidu_analytics:
@@ -281,9 +281,9 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+  admin_enable: true
+  user_id: 11339369
+  admin_nickname: Author
 
 
 # Facebook SDK Support.
@@ -308,9 +308,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: jNtrKbh7n1iCujKSNNQ2AlH3
+  app_key: l5SnKfDysKAOoMwfpVAFUDTR
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
